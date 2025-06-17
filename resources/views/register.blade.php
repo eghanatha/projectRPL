@@ -11,10 +11,14 @@
 <body>
     <div class="wrapper">
         <form action="">
-            <h1>Login</h1>
+            <h1>Register</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username" required>
                 <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+                <i class="fa-solid fa-lock"></i>
             </div>
             <div class="input-box">
                 <input type="password" placeholder="Password" required>
@@ -26,14 +30,14 @@
                 <a href="#">Forgot password</a>
             </div>
 
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn">Register</button>
  
             <div class="register-link">
-                <p>Don't have an account? <a href="/register">Register</a></p>
+                <p>Have an account? <a href="/login">Login</a></p>
             </div>
         </form>
     </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
