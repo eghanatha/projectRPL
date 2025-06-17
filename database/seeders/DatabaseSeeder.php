@@ -25,8 +25,8 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         User::create([
-            "name" => "Admin",
-            "email" => "Admin",
+            "username" => "admin",
+            "email" => "admin",
             "password" => Hash::make("admin"),
             "email_verified_at" => Carbon::now()
         ]);
